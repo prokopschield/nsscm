@@ -22,19 +22,12 @@ base64-arraybuffer@0.1.4:
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.4.tgz#9818c79e059b1355f97e0428a017c838e90ba812"
   integrity sha1-mBjHngWbE1X5fgQooBfIOOkLqBI=
 
-blakets@^0.0.0-4:
-  version "0.0.0-4"
-  resolved "https://registry.yarnpkg.com/blakets/-/blakets-0.0.0-4.tgz#3f574a8bd431a8ac75ac8c913a4143e7f80ff3d3"
-  integrity sha512-3PFE71fmj0uxwqgMsq7+T5/hDINCddx3+x6qTrbb6FQUPwjB3+2yup1dKUJQYjC7Y4R3JDiy03TatMIOXiknRw==
+blakets@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/blakets/-/blakets-0.1.1.tgz#35a5bdb5df232989da67f6f02d4cc37392fc053d"
+  integrity sha512-jT1JlFEMM5mE/sx6jnMHHRyUS8/Qrfsl/hJXrYuOtAVgvCysY6Hvv2zcK+UGfSd6Iv0oapYjtQDPh8kmuB2iVg==
   dependencies:
-    doge-json ">=1.1.0-3"
-
-blakets@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/blakets/-/blakets-0.1.0.tgz#8b34df566f059aa383a179ae48ae82ad6361d5f9"
-  integrity sha512-UaOjTs79NPKuk+9GzGhJZrHvrsuD72cAFw5egjKmQjTL/ZXxqqyUp4GanCrlKjT5TptK0fxcKjiGVXLqb7LU6Q==
-  dependencies:
-    doge-json ">=1.1.0-3"
+    doge-json "^1.1.1"
 
 component-emitter@~1.3.0:
   version "1.3.0"
@@ -48,14 +41,14 @@ debug@~4.3.1:
   dependencies:
     ms "2.1.2"
 
-doge-config@^0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.8.tgz#17093e209e03bf7889aad3f00f25194467ee3c50"
-  integrity sha512-joB+d8/ysYEyH3q+mLx4dzvXkXKkFQOfBZRUJ89gEL9w0kC+RBjEmmZnXcix5jIO5ax2jNfKmT6KVmtN/b1ejw==
+doge-config@^0.3.9:
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.9.tgz#99e387edb5e1d29f3d2b389286a3f419f2801bf4"
+  integrity sha512-iQrAC2QIxMIBOkuE5doaPSEp8ua4IzCuVqRKE9cSngCm5+PCr71AQdZrWE7GcjxPfteK2U6UzLMPD7pa1atf9A==
   dependencies:
-    doge-json "^1.1.0"
+    doge-json "^1.1.1"
 
-doge-json@*, doge-json@>=1.1.0-3, doge-json@^1.1.0:
+doge-json@*, doge-json@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.1.1.tgz#0a10d7c378a4ffe24ff8adf036417a8e50e7d399"
   integrity sha512-rVqwd+zjDz0MaLjuVxU43jg7yQmUFOPpjnX70gyoed9kuZ3RbaPpkVW3d/ECTnE0Q4A4cSyjNfCCvRBotoNCdg==
@@ -88,48 +81,27 @@ has-cors@1.1.0:
   resolved "https://registry.yarnpkg.com/has-cors/-/has-cors-1.1.0.tgz#5e474793f7ea9843d1bb99c23eef49ff126fff39"
   integrity sha1-XkdHk/fqmEPRu5nCPu9J/xJv/zk=
 
-mime-db@1.49.0:
-  version "1.49.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
-  integrity sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
-
-mime-types@^2.1.28:
-  version "2.1.32"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.32.tgz#1d00e89e7de7fe02008db61001d9e02852670fd5"
-  integrity sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==
-  dependencies:
-    mime-db "1.49.0"
-
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-node-fetch@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
-nodesite.eu@^1.2.0-10:
-  version "1.2.0-15"
-  resolved "https://registry.yarnpkg.com/nodesite.eu/-/nodesite.eu-1.2.0-15.tgz#d22babd94fd9f27be2bf5479a9a694c739fc2a9a"
-  integrity sha512-NYZo88ZuqOqIQ4GfTxL6qUlMNLVSTvnf1cUpsFlNrsKQ+d8SReQYyNaNXMowOQjKarCvGgVbJwybe4vfHhqglg==
+nodesite.eu-core@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/nodesite.eu-core/-/nodesite.eu-core-1.2.0.tgz#5f13b5cef1d05c3471806ba46ac89648cfca7fd3"
+  integrity sha512-eOtp1gAKly/FIJ1vrB3Fk0Aub/csDiL29jbssuQ16bTMS6uiVGaCtB3v83HfkNWyudKkhKscFWfjRf86q9Mhug==
   dependencies:
-    blakets "^0.0.0-4"
-    doge-config "^0.3.8"
-    mime-types "^2.1.28"
-    node-fetch "^2.6.1"
-    socket.io-client "^3.1.0"
-    ts-hound "^1.0.8"
+    socket.io-client "^3.1.3"
 
-nsblob@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/nsblob/-/nsblob-0.2.7.tgz#d9444c7ea6a90f725dbdf8cf0b1e07b459ad25e5"
-  integrity sha512-euQwji3EYsZkz+Rryk59JHEAHPoTcFvMs5jHEq8rvvft/WfDPBNSRYksCuVRGZcYy41nwnwm2Bfpzz6npD8C8g==
+nsblob@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/nsblob/-/nsblob-0.2.8.tgz#4c6c32512d603a48bbd63ee959e0d29fcf92ef9e"
+  integrity sha512-5GNoqVrqdCu/3zeQ4v4BhCCyqHGClTS3mKgkOe0T/oD4Y070LuCfgWdlTHvsR90s2oS5Dde5Yq/XhXJCoKbUwQ==
   dependencies:
-    blakets "^0.0.0-4"
-    nodesite.eu "^1.2.0-10"
-    serial-async-io "^0.1.0-3"
+    blakets "^0.1.1"
+    doge-config "^0.3.9"
+    nodesite.eu-core "^1.2.0"
+    serial-async-io "^0.1.0"
 
 oplist@^0.0.0-3:
   version "0.0.0-3"
@@ -153,12 +125,12 @@ ps-std@^0.1.0-6:
   resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.0-6.tgz#c15a40881fa5520fa1abc0f688993b6cd7c48bcd"
   integrity sha512-24WgsUx7T3g40oTI7lqSFCKxAihODPUn1BmGr5s2QZH3x+2Ijpyph6wZALihS7pAcbph7eJKVJba0tHxGBvJ4A==
 
-serial-async-io@^0.1.0, serial-async-io@^0.1.0-3:
+serial-async-io@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.1.0.tgz#3a44a459c6e7e9308463a2dac8a6e1e6582762bf"
   integrity sha512-nbl2p7HbYHHIMUgf9fuDydG030wjk4/wwAm8537ZzL8kSyTe2U2z/Ekbeh7zi83YnY6Pu2GqDY5RJEC251ScLQ==
 
-socket.io-client@^3.1.0:
+socket.io-client@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-3.1.3.tgz#57ddcefea58cfab71f0e94c21124de8e3c5aa3e2"
   integrity sha512-4sIGOGOmCg3AOgGi7EEr6ZkTZRkrXwub70bBB/F0JSkMOUFpA77WsL87o34DffQQ31PkbMUIadGOk+3tx1KGbw==

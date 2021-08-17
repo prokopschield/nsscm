@@ -1,7 +1,7 @@
 {
 	"name": "nsscm",
 	"description": "NodeSite.eu Svelte component manager",
-	"version": "0.1.0-1",
+	"version": "0.1.0-2",
 	"main": "lib/index.js",
 	"bin": {
 		"nsscm": "lib/cli.js"
@@ -16,9 +16,9 @@
 	"keywords": [],
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"blakets": "^0.1.0",
-		"doge-config": "^0.3.8",
-		"nsblob": "^0.2.7",
+		"blakets": "^0.1.1",
+		"doge-config": "^0.3.9",
+		"nsblob": "^0.2.8",
 		"oplist": "^0.0.0-3",
 		"ps-std": "^0.1.0-6",
 		"serial-async-io": "^0.1.0",
