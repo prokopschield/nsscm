@@ -1,0 +1,38 @@
+{
+	"name": "nsscm",
+	"description": "NodeSite.eu Svelte component manager",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"nsscm": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli"
+	},
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": "^14"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"blakets": "^0.1.0",
+		"doge-config": "^0.3.8",
+		"nsblob": "^0.2.7",
+		"oplist": "^0.0.0-3",
+		"ps-std": "^0.1.0-6",
+		"serial-async-io": "^0.1.0",
+		"ts-hound": "^1.0.8"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/nsscm.git"
+	},
+	"bugs": {
+		"url": "https://github.com/prokopschield/nsscm/issues"
+	},
+	"homepage": "https://github.com/prokopschield/nsscm#readme"
+}
