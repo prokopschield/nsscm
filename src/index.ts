@@ -7,10 +7,10 @@ export function init(directory?: string, components?: string) {
 	directory = config.str.root = directory || config.str.root;
 	components = config.str.components = components || config.str.components;
 	if (!fs.existsSync(directory)) {
-		fs.mkdirSync(directory);
+		fs.mkdirSync(directory, { recursive: true });
 	}
 	if (!fs.existsSync(components)) {
-		fs.mkdirSync(components);
+		fs.mkdirSync(components, { recursive: true });
 	}
 }
 
