@@ -1,7 +1,7 @@
 {
 	"name": "nsscm",
 	"description": "NodeSite.eu Svelte component manager",
-	"version": "0.1.0-3",
+	"version": "0.1.0-4",
 	"main": "lib/index.js",
 	"bin": {
 		"nsscm": "lib/cli.js"

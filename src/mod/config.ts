@@ -2,7 +2,7 @@ import { getConfig } from 'doge-config';
 
 const config = getConfig('nsscm', {
 	root: './src/',
-	components: './src/lib/components/nsscm/',
+	components: './src/components/share',
 });
 
 export = config;
