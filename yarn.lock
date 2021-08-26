@@ -8,9 +8,9 @@
   integrity sha512-bsjleuRKWmGqajMerkzox19aGbscQX5rmmvvXl3wlIp5gMG1HgkiwPxsN5p070fBDKTNSPgojVbuY1+HWMbFhg==
 
 "@types/node@^14":
-  version "14.17.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.9.tgz#b97c057e6138adb7b720df2bd0264b03c9f504fd"
-  integrity sha512-CMjgRNsks27IDwI785YMY0KLt3co/c0cQ5foxHYv/shC2w8oOnVwz5Ubq1QG5KzrcW+AXk6gzdnxIkDnTvzu3g==
+  version "14.17.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.12.tgz#7a31f720b85a617e54e42d24c4ace136601656c7"
+  integrity sha512-vhUqgjJR1qxwTWV5Ps5txuy2XMdf7Fw+OrdChRboy8BmWUPkckOhphaohzFG6b8DW7CrxaBMdrdJ47SYFq1okw==
 
 backo2@~1.0.2:
   version "1.0.2"
@@ -48,10 +48,10 @@ doge-config@^0.3.9:
   dependencies:
     doge-json "^1.1.1"
 
-doge-json@*, doge-json@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.1.1.tgz#0a10d7c378a4ffe24ff8adf036417a8e50e7d399"
-  integrity sha512-rVqwd+zjDz0MaLjuVxU43jg7yQmUFOPpjnX70gyoed9kuZ3RbaPpkVW3d/ECTnE0Q4A4cSyjNfCCvRBotoNCdg==
+doge-json@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.1.2.tgz#2ce8001433ae70780e83b966154fa25d2c7775a5"
+  integrity sha512-0kDbITkoI1Aj+8GpYQouumaShq+Ernm72GfRfoO+7aqta1eB3hq5zkwx8u853E1hEtvoyHQGQJdDYf4hJGXn0Q==
 
 engine.io-client@~4.1.0:
   version "4.1.4"
@@ -103,12 +103,12 @@ nsblob@^0.2.8:
     nodesite.eu-core "^1.2.0"
     serial-async-io "^0.1.0"
 
-oplist@^0.0.0-3:
-  version "0.0.0-3"
-  resolved "https://registry.yarnpkg.com/oplist/-/oplist-0.0.0-3.tgz#3b01d31e4117e0a4eb230042d0c11b7b0052d99b"
-  integrity sha512-XT5qZ/4Nxqu9qTBO7XABMz4uH+JauQhz1oyKn5olOdIhQK7OGrsSsU95dHVsnNWBgTSbMAoUMyXhzmne4Mf3tQ==
+oplist@^0.0.0-4:
+  version "0.0.0-4"
+  resolved "https://registry.yarnpkg.com/oplist/-/oplist-0.0.0-4.tgz#0010bb7ee41a0cb018936db677c40c6511d1b8b1"
+  integrity sha512-sfllUtG5f77DZdSV3kWxf6lqDIFoFiyhpxE2AQQNgDUGiQV4jgqv2Fl5owrdlDCtSnS+JM7gZlJ4TLerOSVs3Q==
   dependencies:
-    doge-json "*"
+    doge-json "^1.1.1"
 
 parseqs@0.0.6:
   version "0.0.6"
@@ -120,10 +120,10 @@ parseuri@0.0.6:
   resolved "https://registry.yarnpkg.com/parseuri/-/parseuri-0.0.6.tgz#e1496e829e3ac2ff47f39a4dd044b32823c4a25a"
   integrity sha512-AUjen8sAkGgao7UyCX6Ahv0gIK2fABKmYjvP4xmy5JaKvcbTRueIqIPHLAfq30xJddqSE033IOMUSOMCcK3Sow==
 
-ps-std@^0.1.0-6:
-  version "0.1.0-6"
-  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.0-6.tgz#c15a40881fa5520fa1abc0f688993b6cd7c48bcd"
-  integrity sha512-24WgsUx7T3g40oTI7lqSFCKxAihODPUn1BmGr5s2QZH3x+2Ijpyph6wZALihS7pAcbph7eJKVJba0tHxGBvJ4A==
+ps-std@^0.1.0-8:
+  version "0.1.0-8"
+  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.0-8.tgz#5c99454928088349cc2a028ace9b5e5ce18003b8"
+  integrity sha512-3sJ3aWMupN0xJPvGrcQg4EuZ5ZGbQ1ko1ZBPdo3a9DglX1nDnLAolRbSsQIJWQrgtjnU5AoioynLftF+2tSpSw==
 
 serial-async-io@^0.1.0:
   version "0.1.0"
